@@ -1,0 +1,338 @@
+:root{
+    --maxWidth: 1000px;
+}
+
+/* This will cover the navbar of each page of the index.html */
+  .navbar  {
+      margin-bottom: 0;
+      background-color: #ffffff;
+      z-index: 9999;
+      border: 0;
+      font-size: 14px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+
+
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #E8F3E8 !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #0A3409 !important;
+      background-color: #E8F3E8 !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #ffffff !important;
+  }
+  .dropdown-menu{
+
+      color: #ffffff !important;
+	  background-color: #ffffff !important;
+
+  }
+  .dropdown-toggle{
+      color: #ffffff !important;
+	  background-color: #ffffff !important;
+  }
+
+.mainStyle{
+    background-color: #ffffff;
+}
+
+.jumbotronStyle{
+    color: #0A3409;
+    background-color: #92C591;
+    max-width: var(--maxWidth);
+    margin: auto;
+}
+
+.curriculumMe
+{
+    color: black;
+    background-color: green;
+    font-size: 16px;
+    margin: 20px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:20px;
+    padding-right:20px;
+    position: relative;
+    text-align: center;
+
+}
+/* This will cover the about me section of the index.html*/
+
+.aboutMeBody
+{
+    background-color: #92C591;
+    color: #0A3409;
+    font-size: 16px;
+    margin: 20px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:20px;
+    padding-right:20px;
+    position: relative;
+    text-align: left-align;
+
+    max-width: var(--maxWidth);
+    margin: auto;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.aboutMeCardTitle
+{
+    color: #0A3409;
+    background-color: #E8F3E8;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+.aboutMeCardBody
+{
+    color: #0A3409;
+    background-color: #E8F3E8;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: left-align;
+
+}
+.aboutMeCardFooter
+{
+    color: #0A3409;
+    background-color: #E8F3E8;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: left-align;
+    max-width: 200px;
+}
+
+/* This will cover the resume section of index.html! */
+.resumeBody
+{
+    color: black;
+    background-color: #92C591;
+    font-size: 16px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:20px;
+    padding-right:20px;
+    position: relative;
+    max-width: var(--maxWidth);
+    margin: auto;
+    margin-top:15px;
+    #margin-bottom:15px;
+
+}
+
+.resumeCardBody
+{
+    color: #0A3409;
+    background-color: #E8F3E8;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: left-align;
+
+    min-height:580px;
+    height:auto;
+}
+ .resumeCardTitle
+{
+    color: #0A3409;
+    background-color: #E8F3E8;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+}
+.resumeCardHeader
+{
+    color: #0A3409;
+    background-color: #E8F3E8;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+.resumeCardFooter
+{
+    color: #0A3409;
+    background-color: #E8F3E8;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* This will cover the project portion of the index.html! */
+.projectBody
+{
+    position: relative;
+    color: #0A3409;
+    background-color: #92C591;
+    font-size: 16px;
+
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:20px;
+    padding-right:20px;
+    position: relative;
+
+    max-width: var(--maxWidth);
+    margin: auto;
+    margin-top:50px;
+    margin-bottom:15px;
+
+}
+
+ .projectCardTitle
+{
+    color: #0A3409;
+    background-color: #E8F3E8;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    max-width: 500px;
+
+    margin: auto;
+}
+
+.projectCardHeader
+{
+    color: #0A3409;
+    background-color: #E8F3E8;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+
+
+}
+
+.projectCardBody
+{
+    color: #0A3409;
+    background-color: #E8F3E8;
+    border: 1px solid grey;
+
+
+    min-height:500px;
+    height:auto;
+
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: left-align;
+
+
+}
+
+.projectCardFooter
+{
+    color: #0A3409;
+    background-color: #E8F3E8;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    text:10;
+    text-align: center;
+    #max-width:200px;
+    #magin:auto;
+
+
+}
+
+/* This will cover the other portions of the index.html! */
+
+.contactMeBody
+{
+    max-width: var(--maxWidth);
+    margin: auto;
+    margin-top:50px;
+    margin-bottom:15px;
+
+}
+
+
+.img-responsive
+{
+  margin: 0 auto;
+
+}
+
+/* This will cover the work experience &skills of resume.html */
+
+.workCardBody
+{
+    background-color: #92C591;
+    color: #0A3409;
+    font-size: 16px;
+    margin: 20px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:20px;
+    padding-right:20px;
+    position: relative;
+    text-align: left-align;
+
+    max-width: var(--maxWidth);
+    margin: auto;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.workAccordianCardBody
+{
+    color: #0A3409;
+    background-color: #E8F3E8;
+    border: 1px solid grey;
+
+    min-height:500px;
+    height:auto;
+
+    max-width: var(--maxWidth);
+    margin:auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: left-align;
+
+}
+.panel-heading, .panel-title, .panel
+{
+
+
+    color:#E8F3E8 !important;
+	background-color: #0A3409 !important;
+    background-image:none;
+
+    border-color: grey;
+}
+.accordianBody
+{
+    color: #0A3409;
+    background-color: #E8F3E8;
+
+}
